@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
+  
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Page</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,10 +22,9 @@
 
   </head>
   <body>
-
-    
-    <header class="page-header">
-      <a  
+    <div class="container">
+    <header>
+      <a  class="contact-header"
         href="http://google.com"
         style="text-decoration: none"
         target="_blank"
@@ -32,91 +33,88 @@
       >
       <span class="web" >Web</span><span class ="studio" >Studio</span> 
 
-    </a >
-       
-        <u class="contact">
+    </a>
+      <nav>
+        <ul>
           <li>
-            <a class="contact-header" href="http://google.com"   title="Agencja"> Agencja </a>
+            <a class="contact-header" href="http://google.com" style="text-decoration: none" title="Agencja"> Agencja </a>
           </li>
           <li>
-            <a class="contact-header" href="http://google.com"  title="Portfolio">
+            <a class="contact-header" href="http://google.com" style="text-decoration: none" title="Portfolio">
               Portfolio
             </a>
           </li>
           <li>
-            <a class="contact-header" href="http://google.com" > Contact </a>
+            <a class="contact-header" href="http://google.com" style="text-decoration: none"> Contact </a>
           </li>
         </ul>
-      
+      </nav>
 
       <ul>
-        <li class="contact-header">
-          <a 
+        <li>
+          <a class="contact-header"
             href="mailto:info@devstudio.com "
             style="text-decoration: none"
             rel="noreferrer noopener"
             >info@devstudio.com
           </a>
-        </li class= "contact-header">
-        <li><a  href="tel:+48111111111" style="text-decoration: none">+48 111 111 111 </a></li>
+        </li>
+        <li><a class= "contact-header" href="tel:+48111111111" style="text-decoration: none">+48 111 111 111 </a></li>
       </ul>
     </header>
+</div>
+
 
     <a href="./portfolio.html">portfolio</a>
 
 
-   
     <main>
 
-      <div class="container2">
+      <div class="container">
       <section class="background">
-     <h1 >    <span class="effect" >EFEKTYWNE ROZWIĄZANIA <br>
-      DLA WASZEGO BIZNESU</span>
+     <h1 >    <span class="effect" >Efektowne rozwiązania dla waszego biznesu</span>
         </h1>
         <button class="buttons2" type="button">Zamów usługe</button>
        
       </section>
-
-    </div>
- 
-    
+      </div>
 
 
       <div class="container">
-        <ul class="card-set">
-               <li class="item">
-                <h3 class="lorem_ipsum">LOREM IPSUM</h3>
+
+      <div class="row">
+        <div class="column">
+          <h3 class="lorem_ipsum">LOREM IPSUM</h3>
           <p class="lorem_ipsum2">
             LOREM IPSUM Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem.
             Sed non sodales dui. Interdum et malesuada
           </p>
-              </li>
-              <li class="item">
-
-                        <h3 class="lorem_ipsum">LOREM IPSUM</h3>
-          <p class="lorem_ipsum2">
-            LOREM IPSUM Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem.
-            Sed non sodales dui. Interdum et malesuada
-          </p></li>
-          <li class="item">
+        </div>
+        <div class="column">
           <h3 class="lorem_ipsum">LOREM IPSUM</h3>
-          <p class="lorem_ipsum2">
+          <p>
             LOREM IPSUM Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem.
             Sed non sodales dui. Interdum et malesuada
-          </p></li>
-          <li class="item">
-     
+          </p>
+        </div>
+        <div class="column">
           <h3 class="lorem_ipsum">LOREM IPSUM</h3>
-          <p class="lorem_ipsum2">
+          <p>
             LOREM IPSUM Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem.
             Sed non sodales dui. Interdum et malesuada
-          </p></li>
-</ul>
+          </p>
+        </div>
+        <div class="column">
+          <h3 class="lorem_ipsum">LOREM IPSUM</h3>
+          <p>
+            LOREM IPSUM Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem.
+            Sed non sodales dui. Interdum et malesuada
+          </p>
+        </div>
+      </div>
       </div>
 
       <div class="container">
-
-      <section>
         <h2 class="head_2">Czym się zajmujemy</h2>
         <img
           alt="A picture of someone writing on a computer"
@@ -136,12 +134,10 @@
           height="294"
           src="images/3.jpg"
         />
-      </section>
-
       </div>
 
+
       <div class="container">
-      <section>
         <h2 class="head_2">Nasz zespół</h2>
 
         <figure>
@@ -175,14 +171,11 @@
               <p class="text4">       UI Designer </p>
           </figcaption>
         </figure>
-      </section>
+      </div>
+
     </main>
 
-  </div>
-
-
-  <div class="container">
-
+    <div class="container">
     <footer class="footer">
       <a  class="contact-header"
       href="http://google.com"
@@ -202,6 +195,6 @@
       </ul>
     </address>
   </footer>
-  </div>
+    </div>
   </body>
 </html>
