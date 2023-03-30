@@ -1,0 +1,232 @@
+
+.buttons li{
+     
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    text-align: center; 
+    cursor: pointer;
+    padding-left: 22px;
+    padding-top: 6;
+    padding-right: 22;
+    padding-bottom: 6;
+   
+
+}
+
+
+
+.buttons2{
+
+     
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    text-align: center; 
+    cursor: pointer;
+
+}
+
+.lorem_ipsum{
+
+     
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+
+}
+
+.lorem_ipsum2{
+
+  
+    font-size: 14px;
+   
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    
+
+   
+}
+ .head_2{ 
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    
+    }
+
+
+.buttons:hover{
+background-color: var(--brand-color-blue);
+
+color: var(--brand-color-white);
+}
+
+
+.buttons:focus{
+
+    background-color: var(--brand-color-blue);
+
+     
+}
+.effect{
+
+
+     
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    
+
+}
+
+.web{
+
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: left;
+     
+}
+
+
+
+
+.studio{   
+    
+    font-family: Oleo Script;
+    font-size: 26px;
+     
+    line-height: 1.38;
+    letter-spacing: 0.03em;
+    text-align: left;
+    }
+
+
+    .text3{font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.1875;
+        letter-spacing: 0.03em;
+         
+        
+
+    }
+    .text4{
+         
+        font-size: 16px;
+      ;
+        line-height: 1.1875;
+        letter-spacing: 0.03em;
+         
+        
+
+    }
+
+.contact-header{
+
+     
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(33, 33, 33, 1);
+
+    
+
+ }
+ .contact-footer{
+
+     
+font-size: 14px;
+ 
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-align: left;
+color:     var(--brand-color-white);
+
+ }
+ .contact-footer2{
+
+    
+font-size: 14px;
+ 
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-align: left;
+color:     var(--brand-color-white2);
+
+ }
+
+ 
+ .contact-footer2:hover,
+ .contact-footer2:focus,
+ .contact-footer:hover,
+ .contact-footer:focus,
+ .contact-header:focus,
+ .contact-header:hover{
+
+    color: var(--brand-color-blue);
+ }
+
+
+
+ :root {
+    --brand-color-blue: rgba(33, 150, 243, 1);
+    --brand-color-black: rgba(47, 48, 58, 1);
+    --brand-color-white:  rgba(255, 255, 255, 1);
+    --brand-color-white2: rgba(255, 255, 255, 0.6);
+    --brand-color-dark:  rgba(33, 33, 33, 1);
+    --brand-color-grey:  rgba(117, 117, 117, 1);
+  }
+
+  .footer{
+background-color:   var(--brand-color-black);
+  }
+
+
+  .background{
+
+background-color: var(--brand-color-black);
+
+ 
+
+  }
+  .text{
+
+    
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: var(--brand-color-dark);
+
+
+  }
+
+  .text2{
+
+     
+font-size: 16px;
+ 
+line-height: 1.875;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--brand-color-grey);
+
+    
+
+  }
