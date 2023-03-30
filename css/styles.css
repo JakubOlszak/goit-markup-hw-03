@@ -3,16 +3,39 @@
 *::after {
   box-sizing: border-box;
 }
+
+.body {
+  width: 1600px;
+  margin: 0 auto; }
+
 * { margin: 0 }
 
 .container{
     Max-width: 1200px;
     Margin: 0 auto;
-
+    padding: 0 15px
 
 }
 
 
+.menu{
+display:flex;
+list-style: none;
+gap:30px;
+}
+
+.menu_2{
+
+  display:flex;
+  list-style: none;
+  gap:30px;
+  padding-bottom: 94px;
+}
+
+.menu2 .link2{
+
+  display:block;
+}
 
 
 .buttons li{
@@ -51,11 +74,25 @@
  .head_2{ 
     font-size: 36px;
     font-weight: 700;
-    line-height: 42px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
-    
+    text-align: center; 
+    padding-bottom: 50px;
+     
     }
 
+    .head_3{
+ 
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-align: center; 
+        padding-left: 92px;;
+        padding-bottom: 50px;
+         
+       
+    }
 
 .buttons:hover{
 background-color: var(--brand-color-blue);
@@ -102,7 +139,9 @@ color: var(--brand-color-white);
         font-weight: 500;
         line-height: 1.1875;
         letter-spacing: 0.03em;
-         
+        padding-top: 30px;
+        padding-bottom: 10px;
+        text-align: center;
         
 
     }
@@ -112,8 +151,8 @@ color: var(--brand-color-white);
       ;
         line-height: 1.1875;
         letter-spacing: 0.03em;
-         
-        
+        text-align: center;
+        padding-bottom: 30px;
 
     }
 
@@ -217,10 +256,14 @@ width:696px
 
 
   display:flex;
-  list-style-type: none;
+  gap: 30px;
+  padding: 0;
+  list-style: none;
   margin-bottom:94px
 }
   
+
+
   .text{
 
     
