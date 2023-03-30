@@ -4,6 +4,74 @@
   box-sizing: border-box;
 }
 
+
+.container {
+  max-width: 1170px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-set {
+  display: flex;
+  /* Make a flex container multiline */
+  flex-wrap: wrap;
+  /* Set gap between rows and columns */
+  gap: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.item {
+  /*  Set the width of the elements  */
+  flex-basis: calc((100% - 30px) / 4);
+  
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  
+}
+
+
+.item h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.item p {
+  margin: 0;
+} 
+
+.container2{
+display:flex;
+}
+
+
+.button{
+
+display:flex;
+justify-content: center;
+gap:8px;
+margin-left: 510px;
+margin-right: 518px;
+
+}
+
+
+.effect{
+
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+ 
+  text-align:middle;
+  color: var(--brand-color-white);
+
+}
+
+
+
 .buttons li{
      
     font-size: 16px;
@@ -64,13 +132,14 @@
     font-weight: 700;
     line-height: 42px;
     letter-spacing: 0.03em;
+    text-align: center;
+    list-style-type: none;
     
     }
 
 
 .buttons:hover{
 background-color: var(--brand-color-blue);
-
 color: var(--brand-color-white);
 }
 
@@ -81,18 +150,7 @@ color: var(--brand-color-white);
 
      
 }
-.effect{
 
-
-     
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-align: center;
-    
-
-}
 
 .web{
 
@@ -102,7 +160,7 @@ color: var(--brand-color-white);
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: left;
-     
+    color:    var(--brand-color-blue);
 }
 
 
@@ -116,6 +174,7 @@ color: var(--brand-color-white);
     line-height: 1.38;
     letter-spacing: 0.03em;
     text-align: left;
+    color: var(--brand-color-black2);
     }
 
 
@@ -147,11 +206,24 @@ color: var(--brand-color-white);
     line-height: 1.17;
     letter-spacing: 0.02em;
     text-align: left;
-    color: rgba(33, 33, 33, 1);
+    color: var(--brand-color-dark);
 
     
 
  }
+
+ 
+
+
+ .page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+
  .contact-footer{
 
      
@@ -191,6 +263,7 @@ color:     var(--brand-color-white2);
  :root {
     --brand-color-blue: rgba(33, 150, 243, 1);
     --brand-color-black: rgba(47, 48, 58, 1);
+    --brand-color-black2: rgba(0, 0, 0, 1);
     --brand-color-white:  rgba(255, 255, 255, 1);
     --brand-color-white2: rgba(255, 255, 255, 0.6);
     --brand-color-dark:  rgba(33, 33, 33, 1);
