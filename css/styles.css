@@ -88,6 +88,7 @@ gap:30px;
         line-height: 1.16;
         letter-spacing: 0.03em;
         text-align: center; 
+        padding-top: 94px;;
         padding-left: 92px;;
         padding-bottom: 50px;
          
@@ -224,7 +225,15 @@ background-color:   var(--brand-color-black);
   .team{
 
     background-color: var(--brand-color-white3);
+    
+    
   }
+
+.what_we_do{
+padding-bottom: 94px;
+
+}
+
 
   .solution-order{
 
