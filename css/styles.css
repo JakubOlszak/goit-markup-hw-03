@@ -10,12 +10,7 @@
 
 * { margin: 0 }
 
-.container{
-    Max-width: 1200px;
-    Margin: 0 auto;
-    padding: 0 15px
 
-}
 
 
 .menu{
@@ -65,7 +60,17 @@ gap:30px;
     letter-spacing: 0.03em;
     text-align: center; 
     cursor: pointer;
+    margin-bottom: 150px;
+    background-color:   var(--brand-color-blue);
+    color: var(--brand-color-white);
+ 
 
+padding-left: 42px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 41px;
+
+margin-bottom: 200px;
 }
 
 
@@ -132,10 +137,61 @@ color: var(--brand-color-white);
     line-height: 1.38;
     letter-spacing: 0.03em;
     text-align: left;
+    padding-right: 93px;
     }
 
+    .studio2{   
+    
+      font-family: Oleo Script;
+      font-size: 26px;
+      color: var(--brand-color-white);
+      line-height: 1.38;
+      letter-spacing: 0.03em;
+      text-align: left;
+      padding-top: 60px;
+      padding-bottom: 20px;
+      }
 
-    .text3{font-family: Roboto;
+    .contact-header{
+
+     
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.17;
+      letter-spacing: 0.02em;
+      text-align: left;
+      color: rgba(33, 33, 33, 1);
+      padding-right: 46px;
+   }
+
+   .contact-header2{
+
+     
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:  var(--brand-color-grey);
+    padding-left: 310px;
+    padding-right: 50px;
+ }
+
+ .contact-header3{
+
+     
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color:  var(--brand-color-grey);
+   
+}
+
+
+    .text3    {
+      font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.1875;
@@ -157,19 +213,19 @@ color: var(--brand-color-white);
         color: var(--brand-color-grey);
     }
 
-.contact-header{
 
-     
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: rgba(33, 33, 33, 1);
+    .header-order{
 
-    
+      padding-top:32px ;
+    }
 
- }
+ .header-content{
+  display:flex;
+  align-items:center;
+  
+}
+
+
  .contact-footer{
 
      
@@ -199,7 +255,12 @@ color:     var(--brand-color-white2);
  .contact-footer:hover,
  .contact-footer:focus,
  .contact-header:focus,
- .contact-header:hover{
+ .contact-header:hover,
+ .contact-header2:focus,
+ .contact-header2:hover,
+ .contact-header3:focus,
+ .contact-header3:hover
+ {
 
     color: var(--brand-color-blue);
  }
@@ -218,9 +279,23 @@ color:     var(--brand-color-white2);
     --brand-color-black2:rgba(0, 0, 0, 1);
   }
 
-  .footer{
-background-color:   var(--brand-color-black);
+  .footer-content{
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+    align-items: left;
+  
   }
+
+.footer-settings{
+
+  background-color:   var(--brand-color-black);
+max-width: 100%;
+
+ 
+
+}
+
 
   .team{
 
@@ -238,15 +313,23 @@ padding-bottom: 94px;
   .solution-order{
 
 background-color: var(--brand-color-black);
-height:600px;
+max-width: 100%;
 margin-bottom: 94px;}
  
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  align-items: center;
+
+}
+
 .main-content{
 
   display:flex;
   flex-direction:column;
   align-items:center;
-  height:600px;
+   
 }
 
 .primary-header{
@@ -255,7 +338,7 @@ font-style: normal;
 font-size: 44px;
 line-height: 1.4;
 text-align: center;
-width:696px
+max-width:696px
  
 
 }
@@ -263,9 +346,26 @@ width:696px
 .primary-header-set{
 
   padding-top:200px;
-  margin-bottom:30px;
+
+  padding-bottom:30px;
 
 }
+
+
+
+.link_1{
+  background-color: var(--brand-color-white);
+
+
+}
+.link_2{
+  
+  border: 0.1px solid  var(--brand-color-white);
+
+}
+
+
+
 
 .card-set{
 
