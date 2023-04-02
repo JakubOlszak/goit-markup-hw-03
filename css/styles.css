@@ -189,12 +189,14 @@
 .header-content {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .navigate {
   display: flex;
   align-items: center;
   list-style-type: none;
+  justify-content: flex-start;
 }
 
 .contact-header {
