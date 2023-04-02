@@ -1,3 +1,16 @@
+:root {
+  --brand-color-blue: rgba(33, 150, 243, 1);
+  --brand-color-black: rgba(47, 48, 58, 1);
+  --brand-color-white: rgba(255, 255, 255, 1);
+  --brand-color-white2: rgba(255, 255, 255, 0.6);
+  --brand-color-white3: rgba(245, 244, 250, 1);
+  --brand-color-dark: rgba(33, 33, 33, 1);
+  --brand-color-grey: rgba(117, 117, 117, 1);
+  --brand-color-black2: rgba(0, 0, 0, 1);
+  --brand-color-white4: rgba(236, 236, 236, 1);
+  --brand-color-white5: rgba(238, 238, 238, 1);
+}
+
 *,
 *::before,
 *::after {
@@ -34,7 +47,7 @@
   display: flex;
   list-style: none;
   justify-content: space-between;
-  
+
   padding-bottom: 94px;
   flex-wrap: wrap;
 }
@@ -80,11 +93,9 @@
 .buttons-content {
   display: flex;
   gap: 8px;
+
   justify-content: center;
   list-style: none;
-}
-
-.pictures-order {
 }
 
 .head_2 {
@@ -260,19 +271,6 @@
 .contact-header3:focus,
 .contact-header3:hover {
   color: var(--brand-color-blue);
-}
-
-:root {
-  --brand-color-blue: rgba(33, 150, 243, 1);
-  --brand-color-black: rgba(47, 48, 58, 1);
-  --brand-color-white: rgba(255, 255, 255, 1);
-  --brand-color-white2: rgba(255, 255, 255, 0.6);
-  --brand-color-white3: rgba(245, 244, 250, 1);
-  --brand-color-dark: rgba(33, 33, 33, 1);
-  --brand-color-grey: rgba(117, 117, 117, 1);
-  --brand-color-black2: rgba(0, 0, 0, 1);
-  --brand-color-white4: rgba(236, 236, 236, 1);
-  --brand-color-white5: rgba(238, 238, 238, 1);
 }
 
 .footer-content {
