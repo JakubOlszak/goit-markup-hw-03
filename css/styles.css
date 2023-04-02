@@ -181,9 +181,6 @@
   list-style-type: none;
 }
 
-.no-dots {
-  list-style-type: none;
-}
 .header-order {
   padding-top: 24px;
   border: 1px solid var(--brand-color-white4);
@@ -197,6 +194,7 @@
 .navigate {
   display: flex;
   align-items: center;
+  list-style-type: none;
 }
 
 .contact-header {
