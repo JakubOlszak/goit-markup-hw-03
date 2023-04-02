@@ -158,6 +158,17 @@
   padding-top: 60px;
   padding-bottom: 20px;
 }
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.links {
+  text-decoration: none;
+  list-style-type: none;
+}
 
 .contact-header {
   font-size: 14px;
@@ -167,6 +178,55 @@
   text-align: left;
   color: rgba(33, 33, 33, 1);
   padding-right: 46px;
+  list-style-type: none;
+}
+
+.contact-kontakt {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(33, 33, 33, 1);
+
+  list-style-type: none;
+}
+
+.no-dots {
+  list-style-type: none;
+}
+.header-order {
+  padding-top: 24px;
+  border: 1px solid var(--brand-color-white4);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.navigate {
+  display: flex;
+  align-items: center;
+}
+.contact-header2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--brand-color-grey);
+  padding-left: 371px;
+}
+
+.contact-header3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-align: right;
+  padding-left: 50px;
+  color: var(--brand-color-grey);
 }
 
 .contact-header-down {
@@ -210,26 +270,6 @@
   padding-bottom: 60px;
 }
 
-.contact-header2 {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: var(--brand-color-grey);
-  padding-left: 300px;
-  padding-right: 50px;
-}
-
-.contact-header3 {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  text-align: right;
-  color: var(--brand-color-grey);
-}
-
 .text3 {
   font-family: Roboto;
   font-size: 16px;
@@ -248,16 +288,6 @@
   text-align: center;
   padding-bottom: 30px;
   color: var(--brand-color-grey);
-}
-
-.header-order {
-  padding-top: 32px;
-  border: 1px solid var(--brand-color-white4);
-}
-
-.header-content {
-  display: flex;
-  align-items: center;
 }
 
 .contact-footer2:hover,
@@ -298,12 +328,6 @@
   margin-bottom: 94px;
 }
 
-.container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 .main-content {
   display: flex;
   flex-direction: column;
