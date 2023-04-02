@@ -170,17 +170,6 @@
   list-style-type: none;
 }
 
-.contact-header {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: rgba(33, 33, 33, 1);
-  padding-right: 46px;
-  list-style-type: none;
-}
-
 .contact-kontakt {
   font-size: 14px;
   font-weight: 500;
@@ -208,6 +197,17 @@
 .navigate {
   display: flex;
   align-items: center;
+}
+
+.contact-header {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(33, 33, 33, 1);
+  padding-right: 46px;
+  list-style-type: none;
 }
 .contact-header2 {
   font-size: 14px;
