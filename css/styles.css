@@ -312,6 +312,7 @@
 .footer-settings {
   background-color: var(--brand-color-black);
   max-width: 100%;
+  text-decoration: none;
 }
 
 .team {
