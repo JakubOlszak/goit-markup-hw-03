@@ -37,6 +37,7 @@
   display: flex;
   list-style: none;
   gap: 30px;
+  padding-left: 0px;
   padding-bottom: 94px;
 }
 
@@ -52,6 +53,7 @@
   padding-bottom: 94px;
   flex-wrap: wrap;
   padding-left: 0px;
+  gap: 30px;
 }
 
 .buttons {
@@ -90,7 +92,7 @@
 
 .buttons-order {
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 34px;
 }
 
 .buttons-content {
@@ -117,7 +119,7 @@
   letter-spacing: 0.03em;
   text-align: center;
   padding-top: 94px;
-  padding-left: 92px;
+
   padding-bottom: 50px;
 }
 
@@ -142,7 +144,8 @@
 }
 
 .studio {
-  font-family: Oleo Script;
+  font-family: Raleway;
+  font-weight: 700;
   font-size: 26px;
   color: var(--brand-color-black2);
   line-height: 1.38;
@@ -201,6 +204,7 @@
   display: flex;
   gap: 46px;
   list-style-type: none;
+  padding-left: 0px;
 }
 .contact-header {
   font-size: 14px;
